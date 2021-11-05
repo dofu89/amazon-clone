@@ -15,14 +15,14 @@ const Home = () => {
           <Product
             id={0}
             title='The Lean Startup: How Today s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses '
-            price={19.99}
+            price={10.99}
             rating={4}
             img='https://m.media-amazon.com/images/P/B004J4XGN6.01._SCLZZZZZZZ_SX500_.jpg'
           />
           <Product
             id={1}
             title='The Lean Startup: How Today s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses '
-            price={19.99}
+            price={9.99}
             rating={2}
             img='https://m.media-amazon.com/images/P/B004J4XGN6.01._SCLZZZZZZZ_SX500_.jpg'
           />
@@ -38,7 +38,7 @@ const Home = () => {
           <Product
             id={3}
             title='The Lean Startup: How Today s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses '
-            price={19.99}
+            price={199.99}
             rating={2}
             img='https://m.media-amazon.com/images/P/B004J4XGN6.01._SCLZZZZZZZ_SX500_.jpg'
           />
@@ -54,7 +54,7 @@ const Home = () => {
           <Product
             id={5}
             title='The Lean Startup: How Today s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses '
-            price={19.99}
+            price={29.99}
             rating={3}
             img='https://m.media-amazon.com/images/P/B004J4XGN6.01._SCLZZZZZZZ_SX500_.jpg'
           />

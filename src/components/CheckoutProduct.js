@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStateValue } from '../state/StateProvider'
 import '../styles/CheckoutProduct.css'
+import { Button } from '@mui/material'
 
 const CheckoutProduct = ({ id, img, title, price, rating }) => {
   const [{ basket }, dispatch] = useStateValue()
@@ -27,7 +28,7 @@ const CheckoutProduct = ({ id, img, title, price, rating }) => {
               <p>⭐</p>
             ))}
         </p>
-        <button onClick={removeFromBasket}>Remove from Basket</button>
+        <Button onClick={removeFromBasket}>Remove from Basket</Button>
       </div>
     </div>
   )
